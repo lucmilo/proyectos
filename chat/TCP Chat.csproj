@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>TCP_Chat</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>charla.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="charla.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TCPComs">
+      <HintPath>..\..\TCPComs\TCPComs\bin\Release\net7.0\TCPComs.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
